@@ -1,13 +1,27 @@
-import './App.css';
+import {useEffect} from 'react';
 
-const App =() => {
-    const name = 'Paweł'
-    const lastName ='Gajec'
-  return (
-    <div className="App">
-      <h1>Hello {name + ' ' + lastName} </h1>
-    </div>
-  );
+import './App.css'
+import SearchIcon from './search.svg';
+const API_URL = 'http://www.omdbapi.com?apikey=3dbbbfca';
+
+const App = () => {
+
+    const searchMovies = async (tittle) => {
+        const response = await fetch(`${API_URL}&s=${tittle}`);
+        const data = await response.json();
+
+        console.log(data.Search);
+    }
+
+    useEffect (() => {
+        searchMovies('Venom');
+
+    }, []);
+    return(
+        <div className= "app">
+            <h1>MovieLand</h1>
+        </div>
+    );
 }
 
 export default App;
