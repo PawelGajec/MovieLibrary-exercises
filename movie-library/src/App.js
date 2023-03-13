@@ -3,16 +3,8 @@ import {useEffect, useState} from 'react';
 import './App.css'
 import MovieCard from './MovieCard';
 import SearchIcon from './search.svg';
+
 const API_URL = 'http://www.omdbapi.com?apikey=3dbbbfca';
-
-const movie1 = {
-        "Title": "Venom: Let There Be Carnage",
-        "Year": "2021",
-        "imdbID": "tt7097896",
-        "Type": "movie",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYTc3ZTAwYTgtMmM4ZS00MDRiLWI2Y2EtYmRiZmE0YjkzMGY1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg"
-
-}
 
 const App = () => {
     const [movies, setMovies] = useState([]);
@@ -57,13 +49,8 @@ const App = () => {
                             <h2>No movies found</h2>
                         </div>
                         )
-
                     }
-           
-
-        </div>
-
-        
+        </div>  
     );
 }
 
