@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MovieLibrary-exercises/static/css/main.334bdeb1.css",
+    "main.js": "/MovieLibrary-exercises/static/js/main.95e8114f.js",
+    "index.html": "/MovieLibrary-exercises/index.html",
+    "static/media/search.svg": "/MovieLibrary-exercises/static/media/search.f560fb01536b1dbe537c5b62e21b522e.svg",
+    "main.334bdeb1.css.map": "/MovieLibrary-exercises/static/css/main.334bdeb1.css.map",
+    "main.95e8114f.js.map": "/MovieLibrary-exercises/static/js/main.95e8114f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334bdeb1.css",
+    "static/js/main.95e8114f.js"
+  ]
+}
