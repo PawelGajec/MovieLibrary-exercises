@@ -1,2 +1,2 @@
 # MovieLibrary-exercises
-Exercises in React
+Simple application that allows you to search for movies by title in React.
