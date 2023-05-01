@@ -17,7 +17,7 @@ const App = () => {
     }
 
     useEffect (() => {
-        searchMovies('Venom');
+        searchMovies('Spider-Man');
 
     }, []);
     return(
